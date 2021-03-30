@@ -1,0 +1,15 @@
+table {
+    border: solid 3px rgb(214, 206, 206);
+    height:200px;
+    width: 600px;
+}
+td {
+    border: inset 2px rgb(101, 110, 95);
+    height: 70px;
+    text-align: left;
+}
+th {
+    border: inset 2px rgb(177, 172, 172);
+    height: 30px;
+    text-align: center;
+}

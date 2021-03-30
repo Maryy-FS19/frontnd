@@ -1,0 +1,18 @@
+table {
+    border: solid 3px black;
+    height: 600px;
+    width: 800px;
+}
+td, th {
+    border: solid 2px black;
+    text-align: left;
+    width: 800px;
+    height: 500;
+}
+th {
+    height: 50px;
+    border: solid;
+}
+.t1 {
+    height: 250px;
+}

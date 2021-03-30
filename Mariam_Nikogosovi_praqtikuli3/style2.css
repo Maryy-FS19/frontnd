@@ -1,0 +1,18 @@
+body {
+    background-color: cornsilk;
+}
+table {
+    border: solid 5px black;
+    height:200px;
+    width: 600px;
+}
+td {
+    border: inset 3px rgb(101, 110, 95);
+    height: 70px;
+    text-align: left;
+}
+th {
+    border: solid 2px black;
+    height: 30px;
+    text-align: center;
+}
