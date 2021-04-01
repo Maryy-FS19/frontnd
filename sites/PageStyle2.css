@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(173, 198, 230);
+    background-image: url(head.png);
+    height: 100px;
+    background-repeat:repeat-x;   
+    font-size: x-large;
+    text-align: center;
+}

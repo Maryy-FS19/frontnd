@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(149, 236, 149);
+    border: dotted 15px rgb(42, 73, 42);
+    background-size: auto;
+}
+header {
+    font-size: large;
+    text-align: center;
+}
+div {
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
