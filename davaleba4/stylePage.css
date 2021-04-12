@@ -1,0 +1,95 @@
+body {
+    background-color: white;
+    border: 1px black solid;
+    width: 700px;
+    height: 350px;
+    margin: auto;
+}
+.mydiv1 {
+    border: solid darkgreen 1px;
+    background-color: darkgreen;
+    height: 95px;
+    width: 700px;
+    text-align: left;
+    color: white;
+}
+.mydiv2 {
+    border: 1px hidden black;
+    width: 570px;
+    height: 194px;
+    position: relative;
+    bottom: 170px;
+    right: -120px;
+    
+   
+
+}
+.mydiv3 {
+    border: solid darkgreen 1px;
+    background-color: darkgreen;
+    height: 45px;
+    width: 700px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 181px;
+}
+.d1 {
+    border: 2px lightseagreen solid;
+    background-color: lightseagreen;
+    color: white;
+    width: 100px;
+    height: 31px;
+    position: relative;
+    top:5px;
+    left: 5px;
+    text-align: center;
+}
+.d2 {
+   
+    border: 2px lightseagreen solid;
+    background-color: lightseagreen;
+    color: white;
+    width: 100px;
+    height: 31px;
+    position: relative;
+    top:10px;
+    left: 5px;
+    text-align: center;
+    
+}
+.d3 {
+    border: 2px lightseagreen solid;
+    background-color: lightseagreen;
+    color: white;
+    width: 100px;
+    height: 31px;
+    position: relative;
+    top:15px;
+    left: 5px;
+    text-align: center;
+    
+}
+.d4 {
+    border: 2px lightseagreen solid;
+    background-color: lightseagreen;
+    color: white;
+    width: 100px;
+    height: 31px;
+    position: relative;
+    top:20px;
+    left: 5px;
+    text-align: center;
+    
+}
+.d5 {
+    border: 2px lightseagreen solid;
+    background-color: lightseagreen;
+    color: white;
+    width: 100px;
+    height: 31px;
+    position: relative;
+    top:25px;
+    left: 5px;
+    text-align: center;
+}
