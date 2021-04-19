@@ -1,0 +1,43 @@
+form {
+    border: olivedrab 1px solid;
+    width: 700px;
+    height: 600px;
+    background-color: rgb(230, 242, 243);
+}
+form div {
+    margin: auto;
+    padding: 5px;
+    
+}
+.text {
+    width: 300px;
+    height: 400px;
+    border: 1px gray solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inp1 {
+    width: 300px;
+}
+.mydiv {
+    position: relative;
+    bottom: 600px;
+    left: 340px;
+}
+.mybt {
+    background-color: rgb(26, 172, 92);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    height: 55px;
+    font-size: large;
+    border: none;
+}
+.mydiv1 {
+    position: relative;
+    left: 200px;
+
+}
+.mybt:hover {
+    background-color: turquoise;
+
+}

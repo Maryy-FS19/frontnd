@@ -1,0 +1,31 @@
+form {
+    border: 1px  black solid;
+    width: 300px;
+    min-height: 200px;
+    background-color: beige;
+    text-align: center;
+    border-top: none;
+    border-right: none;
+}
+.p1 {
+    color: blue;
+    text-decoration-line: underline;
+}
+.butn {
+    background-color: rgb(197, 69, 69);
+    cursor: pointer;
+    width: 178px;
+    padding: 8px;
+    color: white;
+    border: none;
+    padding-right: 5px;
+
+}
+.butn:hover {
+    background-color: darkred;
+}
+.dd1 {
+    border: none;
+    width: 300px;
+
+}

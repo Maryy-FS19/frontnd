@@ -1,0 +1,30 @@
+form {
+    border: solid 1px black;
+    /*width: 500px;*/
+    width: 650px;
+    height: 600px;
+    color: darkblue;
+    padding-left: 5px;
+    
+}
+
+form input, textarea{
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: gray;
+}
+textarea{
+    height: 100px;
+    width: 500px;
+}
+
+.div-textarea{
+    display:flex;
+}
+
+form>div {
+    padding: 20px;
+    margin: auto;
+}
