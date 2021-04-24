@@ -1,0 +1,43 @@
+.main1 {
+    border:none;
+    margin: 1px;
+    display: flex;
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content:left;
+    flex-wrap: wrap;
+}
+.main1 div {
+    background-color: aqua;
+    width: 100px;
+    margin: 3px;
+}
+.d1{
+    position: relative;
+    right: 101px;
+    bottom: 15px;
+}
+
+.d2 {
+    position: relative;
+    bottom: 105px;
+    left: 5px;
+}
+.d4 {
+    position: relative;
+    bottom: 50px;
+}
+.d5 {
+    position: relative;
+    bottom: 50px;
+}
+.d6 {
+    position: relative;
+    bottom: 50px;
+}
+.d7 {
+    position: relative;
+    bottom: 105px;
+}

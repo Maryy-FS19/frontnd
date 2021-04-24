@@ -1,0 +1,78 @@
+.main2 {
+    border: 5px black solid;
+    background-color: white;
+    width: 500px;
+    min-height: 300px;
+    opacity: 60%;
+}
+.dv1, .dv2, .dv3, .dv4, .dv5{
+    border: solid black 3px;
+    background-color: black;
+    margin: 2px auto;
+    height: 60px;
+    flex-wrap: wrap;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.dv1 {
+    justify-content: flex-start;
+}
+.dv2 {
+    justify-content: flex-end;
+}
+.dv3 {
+    justify-content: center;
+}
+.dv4 {
+    justify-content: space-between;
+}
+.dv5 {
+    justify-content: space-around;
+}
+.dv1 div{
+    border-right: black 2px solid;
+    padding: 5px;
+    width: 80px;
+}
+.dv2 div{
+    border-right: black 2px solid;
+    padding: 5px;
+    width: 80px;
+}
+.dv3 div{
+    border-right: black 2px solid;
+    padding: 5px;
+    width: 80px;
+}
+.center {
+    position: absolute;
+    text-align: center;
+    color: black;
+}
+.txt1{
+    position: relative;
+    bottom: 350px;
+    left: 180px;
+}
+.txt2{
+    position: relative;
+    bottom: 330px;
+    left: 180px;
+}
+.txt3{
+    position: relative;
+    bottom: 300px;
+    left: 180px;
+}
+.txt4{
+    position: relative;
+    bottom: 280px;
+    left: 180px;
+}
+.txt5{
+    position: relative;
+    bottom: 260px;
+    left: 180px;
+}
