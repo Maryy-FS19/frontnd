@@ -1,0 +1,156 @@
+body {
+    background-color: darkblue;
+}
+.header, main,footer{
+    width: 90%;
+    margin: auto;
+    border: black 1px solid;
+}
+.header {
+    width: 90%;
+    height: 200px;
+    background-color: darkgrey;
+}
+.lists {
+    font-size: larger;
+    float: right;
+    list-style-type: none;
+}
+.lists li {
+    display: inline-block;
+}
+.lists li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.7s ease-in-out;
+}
+.lists li a:hover {
+    background-color: rgba(255, 235, 205, 0.5);
+}
+.h {
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.p {
+    display: inline-block;
+    font-size: larger;
+    font-family: fantasy;
+    font-style: italic;
+    color: brown;
+}
+main {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    width: 90px;
+    
+}
+nav .lists2 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+nav .lists2 li a{
+    margin: 2px;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    background-color: cornflowerblue;
+}
+nav .lists2 li a:hover {
+    background-color: steelblue;
+}
+.content {
+    width: 600px;
+    min-height: 400px;
+    background-color: whitesmoke;
+}
+aside {
+    background-color:violet;
+    min-height: 230px;
+    width: 100px;
+}
+footer {
+    background-color: lightblue;
+    height: 100px;
+}
+aside ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+aside ul li {
+    text-decoration: none;
+    display: block;
+    background-color: thistle;
+    margin: 2px;
+    padding: 4px;
+}
+aside ul li:hover{
+    background-color: wheat;
+}
+aside ul li a{
+    text-decoration: none;
+    display: block;
+    background-color: thistle;
+    margin: 2px;
+    padding: 4px;
+    color: black;
+}
+aside ul li a:hover{
+    background-color: wheat;
+}
+.img {
+    padding-top: 5px;
+}
+.t {
+    color: chocolate;
+    font-size: larger;
+}
+.t1 {
+    font-size: larger;
+    font-family: cursive;
+}
+.sp1 {
+    color: chocolate;
+    font-size: medium;
+}
+footer {
+    font-size: x-large;
+    font-style: normal;
+    color: slateblue;
+    padding-top: 5px;
+}
+@media (min-width: 700px) {
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    nav {
+        flex: 10%;
+    }
+    content {
+        flex: 80%;
+    }
+    aside {
+        flex: 10%;
+    }
+}
+@media (min-width: 750px) {
+    main {
+        flex-direction: row;
+    }
+    nav {
+        flex: 1;
+    }
+    content {
+        flex: 4;
+    }
+    aside {
+        flex: 1;
+    }
+}

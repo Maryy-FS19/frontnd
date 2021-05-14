@@ -1,0 +1,48 @@
+/**for desktop**/
+.mainn {
+    text-align: center;
+}
+.cont1 {
+    padding: 3px;
+    border: hidden;
+    width: 800px;
+    height: 70px;
+    background-color: silver;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cont1 div {
+    border: green 2px solid;
+    width: 110px;
+    height: 30px;
+    background-color: red;
+    margin: 15px;
+}
+span {
+    display: inline-block;
+    color: red;
+}
+.txt {
+    display: inline-block;
+}
+
+@media (max-width: 850px) {
+    span {
+        color: green;
+    }
+    .cont1 {
+        display: inline-block;
+        flex-direction: column;
+        height: auto;
+             
+    }
+    .cont1 div {
+        border: red 2px solid;
+        width:auto;
+        height: 30px;
+        background-color: green;
+        margin: 5px;
+    }
+}
