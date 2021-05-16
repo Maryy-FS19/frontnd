@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <b><p id="demo" class="p1"></p></b>
+    <p id="demo1"></p>
+    <p id="demo2">mesame davaleba shesrulebulia</p>
+    <script>
+            document.getElementById("demo").innerHTML = "პირველი დავალება შესრულებულია";
+            var x,y,z;
+            x = 19;
+            y = 25;
+            z = x + y;
+            document.getElementById("demo1").innerHTML = z;
+            document.getElementById("demo2").style.fontFamily = "Impact, Charloac, Sans-serif";
+
+            function lab4(width) {
+                t = "<table border=1, width="+width+", height=200>";
+                t += "<tr>";
+                t += "<td>";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "<tr>";
+                t += "<td>";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "</table>";
+                document.write(t)
+            }
+            lab4(500);
+
+            function lab5(h) {
+                t = "<table border=1, height="+h+", width=200>";
+                t += "<tr>";
+                t += "<td>";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "<tr>";
+                t += "<td>";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "</table>";
+                document.write(t)
+            }
+            lab5(600);
+
+            function lab6(w,h) {
+                t = "<table border=1, width="+w+", height="+h+">";
+                t += "<tr>";
+                t += "<td>";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "<tr>";
+                t += "<td>";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "</table>";
+                document.write(t)
+            }
+            lab6(500, 100)
+
+            function lab7(baccolor) {
+                t = "<table border=1, width=200, height=200 bgcolor="+baccolor+">";
+                t += "<tr>";
+                t += "<td>";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "<tr>";
+                t += "<td>";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "</table>";
+                document.write(t)
+            }
+            lab7("yellow");
+
+            function lab8(bsize) {
+                t = "<table border="+bsize+", width=200, height=200>";
+                t += "<tr>";
+                t += "<td>";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "<tr>";
+                t += "<td>";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "</table>";
+                document.write(t)
+            }
+            lab8(10);
+
+            function lab9(w,h,c,bs) {
+                t = "<table width="+w+", height="+h+", bgcolor = "+c+", border="+bs+">";
+                t += "<tr>";
+                t += "<td>";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "<tr>";
+                t += "<td>";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "</table>";
+                document.write(t)
+            }
+            lab9(500,200,"green",3);
+
+            function lab10(w,h,c,bs,a,cp,cs){
+                t = "<table width="+w+", height="+h+", border="+bs+", align="+a+",cellPadding="+cp+",cellSpacing="+cs+">";
+                t += "<tr>";
+                t += "<td>ვერ ვაკეთეეებ :(";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "<tr>";
+                t += "<td>";
+                t += "</td>";
+                t += "<td>";
+                t += "</td>";
+                t += "</tr>";
+                t += "</table>";
+                document.write(t)
+            }
+            lab10(300,500,20,"center",15,10);
+
+                
+    </script>
+
+</body>
+</html>
