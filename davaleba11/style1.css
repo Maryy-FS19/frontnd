@@ -1,0 +1,16 @@
+.body {
+    border: 1px solid gray;
+    background-color: rgb(211, 204, 204);
+    height: 150px;
+    width:auto;
+}
+span {
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+button {
+    padding: 5px;
+    width: 100px;
+    margin-left: 5px;
+}
